@@ -1,0 +1,18 @@
+[submodule "dotfiles"]
+	path = dotfiles
+	url = https://github.com/camarigor/dotfiles.git
+[submodule "oh-my-zsh"]
+	path = oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim"]
+	path = vim
+	url = https://github.com/camarigor/vim.git
+[submodule "xresources"]
+	path = xresources
+	url = https://github.com/solarized/xresources.git
+[submodule "zsh-plugins/cleos-zsh-completion"]
+	path = zsh-plugins/cleos-zsh-completion
+	url = https://github.com/OWDIN/cleos-zsh-completion.git
+[submodule "zsh-plugins/zsh-completions"]
+	path = zsh-plugins/zsh-completions
+	url = https://github.com/zsh-users/zsh-completions.git
