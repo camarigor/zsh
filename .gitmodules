@@ -16,9 +16,3 @@
 [submodule "zsh-plugins/zsh-completions"]
 	path = zsh-plugins/zsh-completions
 	url = https://github.com/zsh-users/zsh-completions.git
-[submodule "zsh-plugins/zsh-dircolors-solarized"]
-	path = zsh-plugins/zsh-dircolors-solarized
-	url = https://github.com/joel-porquet/zsh-dircolors-solarized.git
-[submodule "zsh-dircolors-solarized"]
-	path = zsh-dircolors-solarized
-	url = https://github.com/joel-porquet/zsh-dircolors-solarized.git
