@@ -1,4 +1,5 @@
 export PATH=${HOME}/bin:${PATH}
+export PATH=${HOME}/.local/bin:${PATH}
 export EDITOR=vim
 export GPG_TTY=$(tty)
 export KEYTIMEOUT=1
