@@ -10,7 +10,7 @@ ENABLE_CORRECTION="true"
 ZSH_THEME="kphoen"
 ZSH="${HOME}/.oh-my-zsh"
 
-plugins=(archlinux sprunge git zsh_reload sudo zsh-completions dirhistory zsh-dircolors-solarized systemd compleat lol)
+plugins=(archlinux sprunge git zsh_reload sudo dirhistory systemd compleat lol)
 
 source ${ZSH}/oh-my-zsh.sh
 
