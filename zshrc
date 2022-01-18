@@ -4,14 +4,17 @@ export EDITOR=vim
 export GPG_TTY=$(tty)
 export KEYTIMEOUT=1
 export USER_GIT_ROOT=${HOME}/git
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#53b0e3,bg=grey,bold,underline"
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 ZSH_THEME="kphoen"
 ZSH="${HOME}/.oh-my-zsh"
 
-plugins=(archlinux sprunge git zsh_reload sudo dirhistory systemd compleat lol)
+plugins=(kubectl archlinux sprunge git zsh_reload sudo dirhistory systemd compleat lol)
 
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ${ZSH}/oh-my-zsh.sh
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg_bold[blue]%}"
