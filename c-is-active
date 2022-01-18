@@ -1,0 +1,207 @@
+[0m[0;4m [0m[0m[0;4m UNIT                                                                                                                           [0m[0m[0;4m LOAD  [0m[0m[0;4m ACTIVE[0m[0m[0;4m SUB      [0m[0m[0;4m DESCRIPTION                                                                            [0m
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4mproc-sys-fs-binfmt_misc.automount                                                                                              [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mwaiting  [0m[0m[0;4m [0m[0m[0;4mArbitrary Executable File Formats File System Automount Point                          [0m
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device                  loaded active plugged   WDC WDS100T2B0C-00PXH0 EFI\x20system\x20partition
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p2.device                  loaded active plugged   WDC WDS100T2B0C-00PXH0 Microsoft\x20reserved\x20partition
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p3.device                  loaded active plugged   WDC WDS100T2B0C-00PXH0 Basic\x20data\x20partition
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p4.device                  loaded active plugged   WDC WDS100T2B0C-00PXH0 4
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p5.device                  loaded active plugged   WDC WDS100T2B0C-00PXH0 5
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p6.device                  loaded active plugged   WDC WDS100T2B0C-00PXH0 6
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:01.0-0000:03:00.0-nvme-nvme0-nvme0n1.device                            loaded active plugged   WDC WDS100T2B0C-00PXH0
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:03.0-0000:04:00.0-net-wlp4s0.device                                    loaded active plugged   BCM4360 802.11ac Wireless Network Adapter
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:05.0-0000:05:00.0-net-enp5s0.device                                    loaded active plugged   RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:09.0-0000:07:00.0-ata1-host0-target0:0:0-0:0:0:0-block-sda-sda1.device loaded active plugged   ST500DM002-1BC142 1
+  sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-0000:02:09.0-0000:07:00.0-ata1-host0-target0:0:0-0:0:0:0-block-sda.device      loaded active plugged   ST500DM002-1BC142
+  sys-devices-pci0000:00-0000:00:03.1-0000:09:00.1-sound-card0-controlC0.device                                                   loaded active plugged   /sys/devices/pci0000:00/0000:00:03.1/0000:09:00.1/sound/card0/controlC0
+  sys-devices-pci0000:00-0000:00:08.1-0000:0b:00.3-usb7-7\x2d1-7\x2d1:1.0-bluetooth-hci0.device                                   loaded active plugged   /sys/devices/pci0000:00/0000:00:08.1/0000:0b:00.3/usb7/7-1/7-1:1.0/bluetooth/hci0
+  sys-devices-pci0000:00-0000:00:08.1-0000:0b:00.4-sound-card1-controlC1.device                                                   loaded active plugged   /sys/devices/pci0000:00/0000:00:08.1/0000:0b:00.4/sound/card1/controlC1
+  sys-devices-platform-serial8250-tty-ttyS1.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS10.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS10
+  sys-devices-platform-serial8250-tty-ttyS11.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS11
+  sys-devices-platform-serial8250-tty-ttyS12.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS12
+  sys-devices-platform-serial8250-tty-ttyS13.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS13
+  sys-devices-platform-serial8250-tty-ttyS14.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS14
+  sys-devices-platform-serial8250-tty-ttyS15.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS15
+  sys-devices-platform-serial8250-tty-ttyS16.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS16
+  sys-devices-platform-serial8250-tty-ttyS17.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS17
+  sys-devices-platform-serial8250-tty-ttyS18.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS18
+  sys-devices-platform-serial8250-tty-ttyS19.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS19
+  sys-devices-platform-serial8250-tty-ttyS2.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS20.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS20
+  sys-devices-platform-serial8250-tty-ttyS21.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS21
+  sys-devices-platform-serial8250-tty-ttyS22.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS22
+  sys-devices-platform-serial8250-tty-ttyS23.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS23
+  sys-devices-platform-serial8250-tty-ttyS24.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS24
+  sys-devices-platform-serial8250-tty-ttyS25.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS25
+  sys-devices-platform-serial8250-tty-ttyS26.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS26
+  sys-devices-platform-serial8250-tty-ttyS27.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS27
+  sys-devices-platform-serial8250-tty-ttyS28.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS28
+  sys-devices-platform-serial8250-tty-ttyS29.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS29
+  sys-devices-platform-serial8250-tty-ttyS3.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-platform-serial8250-tty-ttyS30.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS30
+  sys-devices-platform-serial8250-tty-ttyS31.device                                                                               loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS31
+  sys-devices-platform-serial8250-tty-ttyS4.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS4
+  sys-devices-platform-serial8250-tty-ttyS5.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS5
+  sys-devices-platform-serial8250-tty-ttyS6.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS6
+  sys-devices-platform-serial8250-tty-ttyS7.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS7
+  sys-devices-platform-serial8250-tty-ttyS8.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS8
+  sys-devices-platform-serial8250-tty-ttyS9.device                                                                                loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS9
+  sys-devices-pnp0-00:04-tty-ttyS0.device                                                                                         loaded active plugged   /sys/devices/pnp0/00:04/tty/ttyS0
+  sys-devices-virtual-block-dm\x2d0.device                                                                                        loaded active plugged   /sys/devices/virtual/block/dm-0
+  sys-devices-virtual-block-dm\x2d1.device                                                                                        loaded active plugged   /sys/devices/virtual/block/dm-1
+  sys-devices-virtual-block-dm\x2d2.device                                                                                        loaded active plugged   /sys/devices/virtual/block/dm-2
+  sys-devices-virtual-block-dm\x2d3.device                                                                                        loaded active plugged   /sys/devices/virtual/block/dm-3
+  sys-devices-virtual-misc-rfkill.device                                                                                          loaded active plugged   /sys/devices/virtual/misc/rfkill
+  sys-devices-virtual-net-br\x2d0c92a36981d9.device                                                                               loaded active plugged   /sys/devices/virtual/net/br-0c92a36981d9
+  sys-devices-virtual-net-br\x2d3e4772b42456.device                                                                               loaded active plugged   /sys/devices/virtual/net/br-3e4772b42456
+  sys-devices-virtual-net-br\x2d4b508ab2e16e.device                                                                               loaded active plugged   /sys/devices/virtual/net/br-4b508ab2e16e
+  sys-devices-virtual-net-br\x2df900be969507.device                                                                               loaded active plugged   /sys/devices/virtual/net/br-f900be969507
+  sys-devices-virtual-net-docker0.device                                                                                          loaded active plugged   /sys/devices/virtual/net/docker0
+  sys-devices-virtual-net-veth1f5d411.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth1f5d411
+  sys-devices-virtual-net-veth4a7ad37.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth4a7ad37
+  sys-devices-virtual-net-veth6b95cf9.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth6b95cf9
+  sys-devices-virtual-net-veth778e39b.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth778e39b
+  sys-devices-virtual-net-veth863b3f8.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth863b3f8
+  sys-devices-virtual-net-veth95ef2c7.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth95ef2c7
+  sys-devices-virtual-net-veth9eca4b9.device                                                                                      loaded active plugged   /sys/devices/virtual/net/veth9eca4b9
+  sys-devices-virtual-net-vetha1adb50.device                                                                                      loaded active plugged   /sys/devices/virtual/net/vetha1adb50
+  sys-devices-virtual-net-vethb79065a.device                                                                                      loaded active plugged   /sys/devices/virtual/net/vethb79065a
+  sys-devices-virtual-net-vethc8f4251.device                                                                                      loaded active plugged   /sys/devices/virtual/net/vethc8f4251
+  sys-devices-virtual-net-vethdb16389.device                                                                                      loaded active plugged   /sys/devices/virtual/net/vethdb16389
+  sys-devices-virtual-net-vethf014f57.device                                                                                      loaded active plugged   /sys/devices/virtual/net/vethf014f57
+  sys-devices-virtual-net-vethf2c123e.device                                                                                      loaded active plugged   /sys/devices/virtual/net/vethf2c123e
+  sys-module-configfs.device                                                                                                      loaded active plugged   /sys/module/configfs
+  sys-module-fuse.device                                                                                                          loaded active plugged   /sys/module/fuse
+  sys-subsystem-bluetooth-devices-hci0.device                                                                                     loaded active plugged   /sys/subsystem/bluetooth/devices/hci0
+  sys-subsystem-net-devices-br\x2d0c92a36981d9.device                                                                             loaded active plugged   /sys/subsystem/net/devices/br-0c92a36981d9
+  sys-subsystem-net-devices-br\x2d3e4772b42456.device                                                                             loaded active plugged   /sys/subsystem/net/devices/br-3e4772b42456
+  sys-subsystem-net-devices-br\x2d4b508ab2e16e.device                                                                             loaded active plugged   /sys/subsystem/net/devices/br-4b508ab2e16e
+  sys-subsystem-net-devices-br\x2df900be969507.device                                                                             loaded active plugged   /sys/subsystem/net/devices/br-f900be969507
+  sys-subsystem-net-devices-docker0.device                                                                                        loaded active plugged   /sys/subsystem/net/devices/docker0
+  sys-subsystem-net-devices-enp5s0.device                                                                                         loaded active plugged   RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+  sys-subsystem-net-devices-veth1f5d411.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth1f5d411
+  sys-subsystem-net-devices-veth4a7ad37.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth4a7ad37
+  sys-subsystem-net-devices-veth6b95cf9.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth6b95cf9
+  sys-subsystem-net-devices-veth778e39b.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth778e39b
+  sys-subsystem-net-devices-veth863b3f8.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth863b3f8
+  sys-subsystem-net-devices-veth95ef2c7.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth95ef2c7
+  sys-subsystem-net-devices-veth9eca4b9.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/veth9eca4b9
+  sys-subsystem-net-devices-vetha1adb50.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/vetha1adb50
+  sys-subsystem-net-devices-vethb79065a.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/vethb79065a
+  sys-subsystem-net-devices-vethc8f4251.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/vethc8f4251
+  sys-subsystem-net-devices-vethdb16389.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/vethdb16389
+  sys-subsystem-net-devices-vethf014f57.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/vethf014f57
+  sys-subsystem-net-devices-vethf2c123e.device                                                                                    loaded active plugged   /sys/subsystem/net/devices/vethf2c123e
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4msys-subsystem-net-devices-wlp4s0.device                                                                                        [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mplugged  [0m[0m[0;4m [0m[0m[0;4mBCM4360 802.11ac Wireless Network Adapter                                              [0m
+  -.mount                                                                                                                         loaded active mounted   Root Mount
+  boot.mount                                                                                                                      loaded active mounted   /boot
+  dev-hugepages.mount                                                                                                             loaded active mounted   Huge Pages File System
+  dev-mqueue.mount                                                                                                                loaded active mounted   POSIX Message Queue File System
+  home.mount                                                                                                                      loaded active mounted   /home
+  sys-fs-fuse-connections.mount                                                                                                   loaded active mounted   FUSE Control File System
+  sys-kernel-config.mount                                                                                                         loaded active mounted   Kernel Configuration File System
+  sys-kernel-debug.mount                                                                                                          loaded active mounted   Kernel Debug File System
+  sys-kernel-tracing.mount                                                                                                        loaded active mounted   Kernel Trace File System
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4mtmp.mount                                                                                                                      [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mmounted  [0m[0m[0;4m [0m[0m[0;4mTemporary Directory (/tmp)                                                             [0m
+  systemd-ask-password-console.path                                                                                               loaded active waiting   Dispatch Password Requests to Console Directory Watch
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4msystemd-ask-password-wall.path                                                                                                 [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mwaiting  [0m[0m[0;4m [0m[0m[0;4mForward Password Requests to Wall Directory Watch                                      [0m
+  docker-0119e6e095a1bea038a3be594bff29974fc61c922a4090beba181cbdf85e7300.scope                                                   loaded active running   libcontainer container 0119e6e095a1bea038a3be594bff29974fc61c922a4090beba181cbdf85e7300
+  docker-180adb42f2858a7e5c28daad49eeea73afa7e7c8a50a318650083dac6b619d42.scope                                                   loaded active running   libcontainer container 180adb42f2858a7e5c28daad49eeea73afa7e7c8a50a318650083dac6b619d42
+  docker-305d90268643e82dc228f2f7b90e05bb59e1016a63ed8ff12e0fa3c5b54e93e6.scope                                                   loaded active running   libcontainer container 305d90268643e82dc228f2f7b90e05bb59e1016a63ed8ff12e0fa3c5b54e93e6
+  docker-4e000196da2e100bf9fcbba7b657d7d35c51403ee399a12e65d64f8da8eed372.scope                                                   loaded active running   libcontainer container 4e000196da2e100bf9fcbba7b657d7d35c51403ee399a12e65d64f8da8eed372
+  docker-5c7671f41cd1aa8e70678d48340709818f4c2f8c1f40025984ccb7455505ffe9.scope                                                   loaded active running   libcontainer container 5c7671f41cd1aa8e70678d48340709818f4c2f8c1f40025984ccb7455505ffe9
+  docker-62339e860e7d2848cd46ae9b256cc653be091c37c4f77f176985d71453be03b2.scope                                                   loaded active running   libcontainer container 62339e860e7d2848cd46ae9b256cc653be091c37c4f77f176985d71453be03b2
+  docker-7b4229f241da37fecca938d38ced0a0f2e3f19a7279b508204f93cdefe37f715.scope                                                   loaded active running   libcontainer container 7b4229f241da37fecca938d38ced0a0f2e3f19a7279b508204f93cdefe37f715
+  docker-866ef4d9268046106b0a33a3e22993a9bcda41092debab7a4234982cd507306f.scope                                                   loaded active running   libcontainer container 866ef4d9268046106b0a33a3e22993a9bcda41092debab7a4234982cd507306f
+  docker-9882a3fa8549ef979f2a904e31018b503496bd39a3a91106589afd9d0ef307c2.scope                                                   loaded active running   libcontainer container 9882a3fa8549ef979f2a904e31018b503496bd39a3a91106589afd9d0ef307c2
+  docker-9aaf42ff43d630765d8837a1c2cae0b907b9e9d727e0cc8003c4913897501d08.scope                                                   loaded active running   libcontainer container 9aaf42ff43d630765d8837a1c2cae0b907b9e9d727e0cc8003c4913897501d08
+  docker-b2d26d4b9543fc23890024fa1b280641bf3f37fe89f173446e6b61ad5dc3f2b5.scope                                                   loaded active running   libcontainer container b2d26d4b9543fc23890024fa1b280641bf3f37fe89f173446e6b61ad5dc3f2b5
+  docker-b86e682b9a9a5415c0abac3f7abf1b400d67221159e442eba8b6e840081bf9d3.scope                                                   loaded active running   libcontainer container b86e682b9a9a5415c0abac3f7abf1b400d67221159e442eba8b6e840081bf9d3
+  docker-fe64a67468ff0d0c50299a89220a562d98a3605819d88057288fae8ce64a7444.scope                                                   loaded active running   libcontainer container fe64a67468ff0d0c50299a89220a562d98a3605819d88057288fae8ce64a7444
+  init.scope                                                                                                                      loaded active running   System and Service Manager
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4msession-2.scope                                                                                                                [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mrunning  [0m[0m[0;4m [0m[0m[0;4mSession 2 of user igor                                                                 [0m
+  alsa-restore.service                                                                                                            loaded active exited    Save/Restore Sound Card State
+  bluetooth.service                                                                                                               loaded active running   Bluetooth service
+  dbus.service                                                                                                                    loaded active running   D-Bus System Message Bus
+  docker.service                                                                                                                  loaded active running   Docker Application Container Engine
+  kmod-static-nodes.service                                                                                                       loaded active exited    Create list of static device nodes for the current kernel
+  ldconfig.service                                                                                                                loaded active exited    Rebuild Dynamic Linker Cache
+  lvm2-monitor.service                                                                                                            loaded active exited    Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling
+  lvm2-pvscan@254:0.service                                                                                                       loaded active exited    LVM event activation on device 254:0
+  NetworkManager-wait-online.service                                                                                              loaded active exited    Network Manager Wait Online
+  NetworkManager.service                                                                                                          loaded active running   Network Manager
+  polkit.service                                                                                                                  loaded active running   Authorization Manager
+  rtkit-daemon.service                                                                                                            loaded active running   RealtimeKit Scheduling Policy Service
+  sddm.service                                                                                                                    loaded active running   Simple Desktop Display Manager
+  systemd-fsck@dev-disk-by\x2duuid-741754a5\x2dbf8f\x2d4845\x2dabcd\x2d9e613990ed25.service                                       loaded active exited    File System Check on /dev/disk/by-uuid/741754a5-bf8f-4845-abcd-9e613990ed25
+  systemd-fsck@dev-disk-by\x2duuid-912F\x2d32C3.service                                                                           loaded active exited    File System Check on /dev/disk/by-uuid/912F-32C3
+  systemd-journal-catalog-update.service                                                                                          loaded active exited    Rebuild Journal Catalog
+  systemd-journal-flush.service                                                                                                   loaded active exited    Flush Journal to Persistent Storage
+  systemd-journald.service                                                                                                        loaded active running   Journal Service
+  systemd-logind.service                                                                                                          loaded active running   User Login Management
+  systemd-modules-load.service                                                                                                    loaded active exited    Load Kernel Modules
+  systemd-random-seed.service                                                                                                     loaded active exited    Load/Save Random Seed
+  systemd-remount-fs.service                                                                                                      loaded active exited    Remount Root and Kernel File Systems
+  systemd-sysctl.service                                                                                                          loaded active exited    Apply Kernel Variables
+  systemd-sysusers.service                                                                                                        loaded active exited    Create System Users
+  systemd-timesyncd.service                                                                                                       loaded active running   Network Time Synchronization
+  systemd-tmpfiles-setup-dev.service                                                                                              loaded active exited    Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                                                                                  loaded active exited    Create Volatile Files and Directories
+  systemd-udev-trigger.service                                                                                                    loaded active exited    Coldplug All udev Devices
+  systemd-udevd.service                                                                                                           loaded active running   Rule-based Manager for Device Events and Files
+  systemd-update-done.service                                                                                                     loaded active exited    Update is Completed
+  systemd-update-utmp.service                                                                                                     loaded active exited    Update UTMP about System Boot/Shutdown
+  systemd-user-sessions.service                                                                                                   loaded active exited    Permit User Sessions
+  udisks2.service                                                                                                                 loaded active running   Disk Manager
+  upower.service                                                                                                                  loaded active running   Daemon for power management
+  user-runtime-dir@1000.service                                                                                                   loaded active exited    User Runtime Directory /run/user/1000
+  user@1000.service                                                                                                               loaded active running   User Manager for UID 1000
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4mwpa_supplicant.service                                                                                                         [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mrunning  [0m[0m[0;4m [0m[0m[0;4mWPA supplicant                                                                         [0m
+  -.slice                                                                                                                         loaded active active    Root Slice
+  system-getty.slice                                                                                                              loaded active active    system-getty.slice
+  system-lvm2\x2dpvscan.slice                                                                                                     loaded active active    system-lvm2\x2dpvscan.slice
+  system-modprobe.slice                                                                                                           loaded active active    system-modprobe.slice
+  system-systemd\x2dcoredump.slice                                                                                                loaded active active    system-systemd\x2dcoredump.slice
+  system-systemd\x2dfsck.slice                                                                                                    loaded active active    system-systemd\x2dfsck.slice
+  system.slice                                                                                                                    loaded active active    System Slice
+  user-1000.slice                                                                                                                 loaded active active    User Slice of UID 1000
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4muser.slice                                                                                                                     [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mactive   [0m[0m[0;4m [0m[0m[0;4mUser and Session Slice                                                                 [0m
+  dbus.socket                                                                                                                     loaded active running   D-Bus System Message Bus Socket
+  dm-event.socket                                                                                                                 loaded active listening Device-mapper event daemon FIFOs
+  docker.socket                                                                                                                   loaded active running   Docker Socket for the API
+  lvm2-lvmpolld.socket                                                                                                            loaded active listening LVM2 poll daemon socket
+  systemd-coredump.socket                                                                                                         loaded active listening Process Core Dump Socket
+  systemd-journald-audit.socket                                                                                                   loaded active running   Journal Audit Socket
+  systemd-journald-dev-log.socket                                                                                                 loaded active running   Journal Socket (/dev/log)
+  systemd-journald.socket                                                                                                         loaded active running   Journal Socket
+  systemd-rfkill.socket                                                                                                           loaded active listening Load/Save RF Kill Switch Status /dev/rfkill Watch
+  systemd-udevd-control.socket                                                                                                    loaded active running   udev Control Socket
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4msystemd-udevd-kernel.socket                                                                                                    [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mrunning  [0m[0m[0;4m [0m[0m[0;4mudev Kernel Socket                                                                     [0m
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4mdev-disk-by\x2duuid-83421404\x2dd931\x2d4238\x2daaec\x2dfb33c1e6f1f1.swap                                                      [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mactive   [0m[0m[0;4m [0m[0m[0;4m/dev/disk/by-uuid/83421404-d931-4238-aaec-fb33c1e6f1f1                                 [0m
+  basic.target                                                                                                                    loaded active active    Basic System
+  bluetooth.target                                                                                                                loaded active active    Bluetooth
+  cryptsetup.target                                                                                                               loaded active active    Local Encrypted Volumes
+  getty.target                                                                                                                    loaded active active    Login Prompts
+  graphical.target                                                                                                                loaded active active    Graphical Interface
+  local-fs-pre.target                                                                                                             loaded active active    Local File Systems (Pre)
+  local-fs.target                                                                                                                 loaded active active    Local File Systems
+  multi-user.target                                                                                                               loaded active active    Multi-User System
+  network-online.target                                                                                                           loaded active active    Network is Online
+  network.target                                                                                                                  loaded active active    Network
+  paths.target                                                                                                                    loaded active active    Paths
+  remote-fs.target                                                                                                                loaded active active    Remote File Systems
+  slices.target                                                                                                                   loaded active active    Slices
+  sockets.target                                                                                                                  loaded active active    Sockets
+  sound.target                                                                                                                    loaded active active    Sound Card
+  swap.target                                                                                                                     loaded active active    Swap
+  sysinit.target                                                                                                                  loaded active active    System Initialization
+  time-set.target                                                                                                                 loaded active active    System Time Set
+  timers.target                                                                                                                   loaded active active    Timers
+[0m[0;4m [0m[0m[0;4m [0m[0m[0;4mveritysetup.target                                                                                                             [0m[0m[0;4m [0m[0m[0;4mloaded[0m[0m[0;4m [0m[0m[0;4mactive[0m[0m[0;4m [0m[0m[0;4mactive   [0m[0m[0;4m [0m[0m[0;4mLocal Verity Integrity Protected Volumes                                               [0m
+  shadow.timer                                                                                                                    loaded active waiting   Daily verification of password and group files
+  systemd-tmpfiles-clean.timer                                                                                                    loaded active waiting   Daily Cleanup of Temporary Directories
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+[0;1;39m200 loaded units listed.[0m Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
