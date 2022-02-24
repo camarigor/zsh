@@ -73,3 +73,4 @@ t() {
     tmux attach -t $SESSIONNAME
 }
 
+eval $(thefuck --alias )
