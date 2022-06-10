@@ -11,7 +11,7 @@ ENABLE_CORRECTION="true"
 ZSH_THEME="kphoen"
 ZSH="${HOME}/.oh-my-zsh"
 
-plugins=(kubectl aws docker docker-compose helm minikube tmux aliases alias-finder archlinux sprunge git sudo dirhistory systemd compleat lol)
+plugins=(kubectl kubectx themes systemadmin aws docker docker-compose helm minikube tmux aliases alias-finder debian archlinux sprunge git sudo dirhistory systemd compleat lol)
 
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
