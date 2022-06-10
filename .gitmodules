@@ -18,4 +18,7 @@
     url = https://github.com/zsh-users/zsh-completions.git
 [submodule "zsh-plugins/zsh-dircolors-solarized"]
 	path = zsh-plugins/zsh-dircolors-solarized
-	url = https://github.com/joel-porquet/zsh-dircolors-solarized.git
+    url = https://github.com/joel-porquet/zsh-dircolors-solarized.git
+[submodule "zsh-plugins/zsh-syntax-highlighting"]
+        path = zsh-plugins/zsh-syntax-highlighting
+        url = https://github.com/catppuccin/zsh-syntax-highlighting.git
