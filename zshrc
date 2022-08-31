@@ -5,6 +5,7 @@ export GPG_TTY=$(tty)
 export KEYTIMEOUT=1
 export USER_GIT_ROOT=${HOME}/git
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#53b0e3,bg=grey,bold,underline"
+export MCFLY_RESULTS=25
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
@@ -13,11 +14,10 @@ ZSH="${HOME}/.oh-my-zsh"
 
 plugins=(kubectl kubectx history web-search themes systemadmin aws docker docker-compose helm minikube tmux aliases alias-finder debian archlinux sprunge git sudo dirhistory systemd compleat lol)
 
-source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ${ZSH}/oh-my-zsh.sh
 source ${HOME}/git/zsh/zsh-plugins/zsh-syntax-highlighting/catppuccin-zsh-syntax-highlighting.zsh
-
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg_bold[blue]%}"
 PROMPT='[%{$fg[red]%}$(date +%T) %{$fg_bold[yellow]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$(git_prompt_info)]
@@ -50,6 +50,10 @@ alias g="git"
 alias ptpb="curl https://ptpb.pw -F c=@-"
 alias sz="source ${HOME}/.zshrc"
 alias vi="vim"
+alias renner="cd /home/marques/documents/renner"
+alias init="terraform init --reconfigure --upgrade"
+alias plan="terraform plan"
+alias apply="terraform apply"
 
 [ -f ${HOME}/.localrc ] && source ${HOME}/.localrc
 
@@ -75,4 +79,5 @@ t() {
     tmux attach -t $SESSIONNAME
 }
 
+eval "$(mcfly init zsh)"
 eval $(thefuck --alias )
