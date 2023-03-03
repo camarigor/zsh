@@ -14,8 +14,8 @@ ZSH="${HOME}/.oh-my-zsh"
 
 plugins=(kubectl kubectx history web-search themes systemadmin aws docker docker-compose helm minikube tmux aliases alias-finder debian archlinux sprunge git sudo dirhistory systemd compleat lol)
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ${ZSH}/oh-my-zsh.sh
 source ${HOME}/git/zsh/zsh-plugins/zsh-syntax-highlighting/catppuccin-zsh-syntax-highlighting.zsh
 
@@ -54,6 +54,8 @@ alias renner="cd /home/marques/documents/renner"
 alias init="terraform init --reconfigure --upgrade"
 alias plan="terraform plan"
 alias apply="terraform apply"
+alias shut="sudo shutdown -h now"
+alias reboot="sudo reboot now"
 
 [ -f ${HOME}/.localrc ] && source ${HOME}/.localrc
 
