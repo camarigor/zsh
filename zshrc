@@ -56,6 +56,7 @@ alias plan="terraform plan"
 alias apply="terraform apply"
 alias shut="sudo shutdown -h now"
 alias reboot="sudo reboot now"
+alias vpn="openvpn3 session-start --config agg"
 
 [ -f ${HOME}/.localrc ] && source ${HOME}/.localrc
 
