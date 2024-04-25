@@ -17,7 +17,6 @@ plugins=(kubectl kubectx history web-search themes systemadmin aws docker docker
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ${ZSH}/oh-my-zsh.sh
-source ${HOME}/git/zsh/zsh-plugins/zsh-syntax-highlighting/catppuccin-zsh-syntax-highlighting.zsh
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg_bold[blue]%}"
 PROMPT='[%{$fg[red]%}$(date +%T) %{$fg_bold[yellow]%}%n%{$reset_color%}@%{$fg[green]%}%m%{$reset_color%}:%{$fg[blue]%}%~%{$reset_color%}$(git_prompt_info)]
