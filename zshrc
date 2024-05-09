@@ -57,7 +57,7 @@ alias shut="sudo shutdown -h now"
 alias reboot="sudo reboot now"
 alias vpn="openvpn3 session-start --config vpn-agg"
 alias vpnr="openvpn3 session-start --config vpn-repassa"
-alias scripts="cd /home/marques/Documents/personal/scripts"
+alias scripts="cd ${HOME}/Documents/personal/scripts"
 [ -f ${HOME}/.localrc ] && source ${HOME}/.localrc
 
 envset() {
