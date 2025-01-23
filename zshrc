@@ -84,3 +84,4 @@ t() {
 
 eval "$(mcfly init zsh)"
 eval $(thefuck --alias )
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
