@@ -58,6 +58,7 @@ alias reboot="sudo reboot now"
 alias vpn="openvpn3 session-start --config vpn-agg"
 alias vpnr="openvpn3 session-start --config vpn-repassa"
 alias scripts="cd ${HOME}/Documents/personal/scripts"
+alias open-webui="DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve"
 [ -f ${HOME}/.localrc ] && source ${HOME}/.localrc
 
 envset() {
