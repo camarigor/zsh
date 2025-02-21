@@ -6,7 +6,6 @@ export KEYTIMEOUT=1
 export USER_GIT_ROOT=${HOME}/git
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#53b0e3,bg=grey,bold,underline"
 export MCFLY_RESULTS=25
-export PATH=/home/marques/bin:$PATH
 
 HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
@@ -50,7 +49,7 @@ alias g="git"
 alias ptpb="curl https://ptpb.pw -F c=@-"
 alias sz="source ${HOME}/.zshrc"
 alias vi="vim"
-alias renner="cd ${HOME}/Documents/renner"
+alias renner="cd /home/marques/documents/renner"
 alias tfinit="terraform init --reconfigure --upgrade"
 alias tfplan="terraform plan"
 alias tfapply="terraform apply"
@@ -59,8 +58,7 @@ alias reboot="sudo reboot now"
 alias vpn="openvpn3 session-start --config vpn-agg"
 alias vpnr="openvpn3 session-start --config vpn-repassa"
 alias scripts="cd ${HOME}/Documents/personal/scripts"
-alias cdk6="cd ${HOME}/Documents/k6"
-alias logs="cd ${HOME}/Documents/personal/logs"
+alias open-webui="DATA_DIR=~/.open-webui uvx --python 3.11 open-webui@latest serve"
 [ -f ${HOME}/.localrc ] && source ${HOME}/.localrc
 
 envset() {
@@ -88,5 +86,3 @@ t() {
 eval "$(mcfly init zsh)"
 eval $(thefuck --alias )
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-[[ -e "/home/marques/lib/oracle-cli/lib/python3.12/site-packages/oci_cli/bin/oci_autocomplete.sh" ]] && source "/home/marques/lib/oracle-cli/lib/python3.12/site-packages/oci_cli/bin/oci_autocomplete.sh"
