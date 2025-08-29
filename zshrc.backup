@@ -83,6 +83,5 @@ t() {
 }
 
 eval "$(mcfly init zsh)"
+eval $(thefuck --alias )
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-[[ -e "/home/marques/lib/oracle-cli/lib/python3.12/site-packages/oci_cli/bin/oci_autocomplete.sh" ]] && source "/home/marques/lib/oracle-cli/lib/python3.12/site-packages/oci_cli/bin/oci_autocomplete.sh"
