@@ -155,6 +155,10 @@ else
     RPROMPT='%(?..%? ↵)$(git_prompt_status)'
 fi
 
+# Position prompt at the bottom of the terminal
+TPUT_END=$(tput cup 9999 0)
+PS1="${TPUT_END}${PS1}"
+
 # Vi mode indicator
 function zle-line-init zle-keymap-select {
     VIM_PROMPT="%{${fg_bold[yellow]}%} [NORMAL] %{${reset_color}%}"
