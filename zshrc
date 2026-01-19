@@ -12,9 +12,10 @@ export KEYTIMEOUT=1
 export USER_GIT_ROOT=${HOME}/git
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#53b0e3,bg=#808080,bold,underline"
 export MCFLY_RESULTS=25
+export BUN_INSTALL="$HOME/.bun"
 
 # Add local bin directories to PATH
-export PATH=${HOME}/.local/bin:${HOME}/bin:${PATH}
+export PATH=${HOME}/.local/bin:${HOME}/bin:${HOME}/.opencode/bin:${BUN_INSTALL}/bin:${PATH}
 
 # Security: Set default file creation mask
 umask 022
@@ -228,6 +229,9 @@ alias kdp="kubectl describe pod"
 alias kds="kubectl describe service"
 alias kdd="kubectl describe deployment"
 
+# Claude Code plugins
+alias claude-mem="$HOME/.bun/bin/bun $HOME/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"
+
 # Network utilities
 alias ptpb="curl https://ptpb.pw -F c=@-"
 alias myip="curl -s https://ipinfo.io/ip"
@@ -393,6 +397,14 @@ fi
 if [ -x /home/linuxbrew/.linuxbrew/bin/brew ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
+
+# Initialize mise (version manager) if available
+if command -v mise &> /dev/null; then
+    eval "$(mise activate zsh)"
+fi
+
+# Initialize Bun completions if available
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
 
 # Initialize Oracle CLI autocompletion if available
 OCI_AUTOCOMPLETE="${HOME}/lib/oracle-cli/lib/python3.12/site-packages/oci_cli/bin/oci_autocomplete.sh"
