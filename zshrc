@@ -398,6 +398,9 @@ if [ -x /home/linuxbrew/.linuxbrew/bin/brew ]; then
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
 
+# Initialize Cargo/Rust if available
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
+
 # Initialize mise (version manager) if available
 if command -v mise &> /dev/null; then
     eval "$(mise activate zsh)"
