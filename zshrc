@@ -290,6 +290,8 @@ envset() {
     # Use -n to avoid following symlinks and -f to force overwrite
     ln -snf ${HOME}/git/zsh/oh-my-zsh ${HOME}/.oh-my-zsh
     ln -snf ${HOME}/git/zsh/vim ${HOME}/.vim
+    ln -snf ${HOME}/git/zsh/zsh-plugins/zsh-autosuggestions ${HOME}/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+    ln -snf ${HOME}/git/zsh/zsh-plugins/zsh-syntax-highlighting ${HOME}/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
     find ${HOME}/git/zsh/dotfiles -maxdepth 1 -name ".*" -not -path ${HOME}/git/zsh/dotfiles/.git -exec ln -snf {} ${HOME} \;
     rm -f ${HOME}/.zcompdump
     echo "Done. Restarting Zsh..."
